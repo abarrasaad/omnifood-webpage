@@ -351,3 +351,179 @@ strong {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+
+/* ******************* */
+
+/*  Testemonials section  */
+
+.section-testemonials {
+  background-color: #fdf2e9;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 55fr 45fr;
+}
+
+.testemonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testemonial-img {
+  width: 46px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testemonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testemonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.testemonials-container {
+  padding: 9.6rem;
+}
+
+/* ******************* */
+
+/*  Gallery section  */
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+/* ****************** */
+
+/*  Pricing section  */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: flex-end;
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffd43b;
+  color: #333;
+  padding: 0.8rem 8rem;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ***************** */
+
+/*  Features section  */
+
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.6rem;
+  color: #cf711f;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* ***************** */
