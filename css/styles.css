@@ -73,7 +73,6 @@
 
 .featured-img {
   height: 3.2rem;
-  width: auto;
   filter: brightness(0);
   opacity: 50%;
 }
@@ -331,7 +330,7 @@ strong {
 
 .meals-link {
   text-align: center;
-  padding-top: 4.8rem;
+  /* padding-top: 4.8rem; */
 }
 
 .recipes-link:link,
